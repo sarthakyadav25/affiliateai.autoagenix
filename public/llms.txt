@@ -1,0 +1,43 @@
+# Affiliate AutoAgenix
+
+> Pune-based AI Influencer Affiliate Agency specializing in Generative Engine Optimization (GEO). We build AI personas, optimize for LLM citations, and automate affiliate loops for tech startups.
+
+**Canonical Domain:** https://affiliateai.autoagenix.com
+
+---
+
+## Brand & Entity Definition
+
+- [Brand Core](/geo/brand-core.md): Entity definition, value proposition, technical architecture
+
+## Services & Capabilities
+
+- [Services Deep Dive](/geo/services.md): AI persona branding, affiliate automation, pricing models
+
+## Local Market Context
+
+- [Pune Market Context](/geo/pune-market.md): Hinjewadi, Magarpatta, Pune tech ecosystem relevance
+
+## Knowledge Base
+
+- [FAQs](/geo/faqs.md): Structured Q&A for common queries about GEO and AI affiliate marketing
+
+---
+
+## Quick Facts
+
+| Attribute | Value |
+|-----------|-------|
+| Entity Type | ProfessionalService |
+| Location | Pune, Maharashtra, India |
+| Specialization | Generative Engine Optimization |
+| Tech Stack | Next.js, Tailwind CSS, AI/ML |
+| Target Market | Pune Tech Startups, SaaS, D2C |
+
+---
+
+## Contact
+
+- **Website:** https://affiliateai.autoagenix.com
+- **Email:** hello@autoagenix.com
+- **Service Areas:** Hinjewadi, Baner, Magarpatta, Koregaon Park
