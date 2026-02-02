@@ -6,9 +6,24 @@ export const revalidate = 30;
 
 function formatUserAgent(ua: string): string {
     // Extract the bot/browser name from user agent
+    // Comprehensive AI bot patterns - Updated February 2025
     const botPatterns = [
-        /GPTBot/i, /ClaudeBot/i, /PerplexityBot/i, /Googlebot/i,
-        /Bingbot/i, /ChatGPT/i, /OAI-SearchBot/i
+        // OpenAI
+        /GPTBot/i, /ChatGPT-User/i, /OAI-SearchBot/i,
+        // Anthropic (Claude)
+        /ClaudeBot/i, /Claude-User/i, /Claude-SearchBot/i, /Claude-Web/i,
+        // Google (Gemini/Bard)
+        /Google-Extended/i, /Gemini-Deep-Research/i, /Google-CloudVertexBot/i,
+        /GoogleAgent-Mariner/i, /Gemini-AI/i, /Bard-AI/i,
+        // Perplexity
+        /PerplexityBot/i, /Perplexity-User/i,
+        // xAI (Grok)
+        /GrokBot/i, /xAI-Grok/i, /Grok-DeepSearch/i, /xAI-Bot/i,
+        // Other AI
+        /Applebot-Extended/i, /Bytespider/i, /CCBot/i, /cohere-ai/i,
+        /Meta-ExternalAgent/i, /FacebookBot/i, /YouBot/i, /DiffBot/i,
+        // General crawlers
+        /Googlebot/i, /Bingbot/i,
     ];
 
     for (const pattern of botPatterns) {
@@ -24,6 +39,7 @@ function formatUserAgent(ua: string): string {
 
     return ua.slice(0, 30) + '...';
 }
+
 
 function getVisitorTypeLabel(type: string): string {
     switch (type) {
